@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg px-5  ">
+    <div class="container-fluid">
+      <img
+        src="https://assets-v2.scaler.com/assets/academy/svg/scaler-53f7b55b0dc3a8f18264d872fd53821b101c3bb6c5c1b282e609e41bae2641a3.svg.gz"
+        alt="" id="navlogo">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse px-5" id="navbarSupportedContent" style="gap: 20px;">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Curriculum</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Teaching</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mentorship</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQs</a>
+          </li>
+
+        </ul>
+
+
+        <button class="btn btn-outline-success" type="submit"
+          style="color: blue; border: 1px blue solid;">Login</button>
+        <button class="btn btn-outline-success" type="submit" style="color: white; background-color: red;">Request a
+          Call </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <div id="a1">
+    <div id="a2">
+      <div id="h1">Your Path to a Successful Tech Career!</div>
+      <div id="h2">Now experience the program for <b>FREE</b></div>
+      <div id="h3">
+        <button id="book">BOOK A LIVE CLASS</button>
+        <button id="explore">EXPLORE ACADEMY</button>
+      </div>
+      <div id="h4">NEXT BATCH STARTS <b>MID-OCTOBER </b></div>
+    </div>
+    <div id="a3">
+      <div id="a4">Book a Live Class, For <b>Free!</b></div>
+      <div id="form">
+        <form action="">
+          <div id="a0">
+            <input type="text" placeholder="Name" /><br />
+            <input type="email" placeholder="Email" />
+          </div>
+          <div id="a6">
+            <div id="a7">
+              <img
+                src="data:image/png;base64,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"
+                height="15px" width="20px" alt="" />
+              <div id="a8">+91</div>
+            </div>
+            <input type="text" placeholder="Phone" />
+          </div>
+          <div id="b0">
+            <input type="number" placeholder="Graduation" />
+            <select id="college" name="college">
+              <option value="college">college</option>
+              <option value="SANK">SANK</option>
+              <option value="ASIT">ASIT</option>
+            </select>
+          </div>
+          <div id="b7">
+            <select id="company" name="company">
+              <option value="Company">Company</option>
+              <option value="Infosys">Infosys</option>
+              <option value="TCS">TCS</option>
+            </select>
+            <select id="jobtitle" name="jobtitle">
+              <option value="Jobtitle">Jobtitle</option>
+              <option value="Software Developer">Software Developer</option>
+              <option value="Software Manger">Software Manger</option>
+            </select>
+          </div>
+          <div id="b1">
+            <div id="b2">
+              <i class="fa-sharp fa-solid fa-square-check"></i>
+            </div>
+            <div id="b3">
+              <div id="b4">WhatsApp/SMS Notifications</div>
+              <div id="b5">
+                Never miss out on reminders and updates from us!
+              </div>
+            </div>
+          </div>
+          <div id="a9">
+            <button>Continue Booking Live Classes</button>
+            <div id="a10">
+              <div id="i1">
+                <i class="fa-sharp fa-solid fa-users-line"></i>
+              </div>
+              <div id="a11">Limited seats left</div>
+            </div>
+          </div>
+          <div id="a11">
+            <div id="a12">Already have an account? <b>Click here</b></div>
+            <div id="a13">
+              By creating an account I have read and agree to Scaler’s
+              <u>Terms</u> and <u>PrivacyPolicy</u>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="cards">
+    <div id="c1">
+      A program for engineers to master <b>Problem Solving & System Design</b>
+    </div>
+    <div id="c2">
+      <div class="card" style="width: 18rem; background-color: rgba(10, 93, 237, 0.775)">
+        <img
+          src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/structured-c36517d8d41efb3a24cbcb3fe1c8b27ffcfacb6b1462ec3e60516504a07eaff6.svg.gz"
+          class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">Structured, industry vetted curriculum</p>
+          <div id="line1"></div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; background-color: rgb(242, 10, 118)">
+        <img
+          src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/live-classes-afff2e39f63a26a19ee4ae844d4b0891c20c50e4b670a224564640cbb973f867.svg.gz"
+          class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            Live classes by faculty who have been there, done that
+          </p>
+          <div id="line2"></div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; background-color: rgba(22, 225, 22, 0.771)">
+        <img
+          src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/project1-9fc6130d4e271198d5f051da0712b27627c872a353dac61c91f248e4f60b6ddf.svg.gz"
+          class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            Practical experience through real-life projects
+          </p>
+          <div id="line3"></div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; background-color: rgba(28, 147, 221, 0.801)">
+        <img
+          src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/flexibility-94067174b36a4a38b3448219f64ccd3e42b3f32667c5ff0ec8d8fab665525d87.svg.gz"
+          class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            Regular 1:1 mentorship from industry veterans
+          </p>
+          <div id="line4"></div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; background-color: rgba(255, 166, 0, 0.941)">
+        <img
+          src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/career-support-c92399914995cba52680341de44c1ce49d292b1de0f10aeb58c3c58a79e3ad3b.svg.gz"
+          class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            Career support via a dedicated recruitment team, alumni network,
+            etc.
+          </p>
+          <div id="line5"></div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; background-color: rgb(215, 19, 215)">
+        <img
+          src="https://assets-v2.scaler.com/assets/academy/svg/at-a-glance/mentor-efc7b3e100e7f2bd17f1f95f4ca28b5205ac3f4e04d4cddd064a800cc63f1c74.svg.gz"
+          class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text">
+            Aspirational peer group of 2,000+ Scaler students & alumni
+          </p>
+          <div id="line6"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div id="design">
+    <div id="heading">We have designed a <b>flexible program</b> for you</div>
+    <div id="row1">
+      <div id="card">
+        <img
+          src="https://assets-v2.scaler.com/assets/academy/svg/missed-class-logo-60d09407cfb901d01f9acbf3ce40460ea42c291dc97dd6a8d9fe624594977239.svg.gz"
+          alt="" id="logo">
+        <div id="heading">Missed a class?</div>
+        <div id="line">Watch the recording later, with assistants available to solve your doubts</div>
+      </div>
+      <div id="card">
+        <img
+          src="https://assets-v2.scaler.com/assets/academy/svg/family-logo-48c3a44b9f17f1e1a6ebcfa8e9ec7fa2370c27094caf996810c02754e307b3d1.svg.gz"
+          alt="" id="logo">
+        <div id="heading">Work / family needs time?</div>
+        <div id="line">Pause your course and restart a month later with the next batch!</div>
+      </div>
+      <div id="card">
+        <img
+          src="https://assets-v2.scaler.com/assets/academy/svg/office-d6141a2e19c03a99003316e141cdb625675a0498ba05e2df5d4ebb128bc21418.svg.gz"
+          alt="" id="logo">
+        <div id="heading">Jobs & class timings clash?</div>
+        <div id="line">Decide your ideal class timing together with your classmates</div>
+      </div>
+    </div>
+    <div id="row2">
+      <div id="card">
+        <img
+          src="https://assets-v2.scaler.com/assets/academy/svg/revise-8aceca46e65750c791c12d778669bf01650ef9e02c2d211ba30c6831c34946ab.svg.gz"
+          alt="" id="logo">
+        <div id="heading">Want to revise?</div>
+        <div id="line">Access assignments/notes and recordings upto 6 months post course completion</div>
+      </div>
+      <div id="card">
+        <img
+          src="https://assets-v2.scaler.com/assets/academy/svg/doubts-44d18551b6589cdeff9e88978faac43d7bb0787cdc74e508832d7692b4d4158b.svg.gz"
+          alt="" id="logo">
+        <div id="heading">Have doubts?</div>
+        <div id="line">Get them resolved over text / video by our expert iam teaching assistants!</div>
+      </div>
+
+    </div>
+  </div>
+  <div id="des1"></div>
+    <div id="heading"><b>Curriculum</b> is designed to make you a <b>solid engineer</b></div>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
